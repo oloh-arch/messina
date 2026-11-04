@@ -1,0 +1,143 @@
+body {
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Main Layout & Cards */
+main {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.service-box, .form-card, .bio-card, .links-card {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Circular Profile Image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+/* Bio Text Formatting */
+.bio-card h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.role {
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.bio-card p {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.bio-card ul {
+  padding-left: 20px;
+}
+
+/* Stacked Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+/* Quick Link Buttons */
+.links-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.link-btn {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  background-color: #f0f0f0;
+  color: black;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.link-btn:hover {
+  background-color: black;
+  color: white;
+}
